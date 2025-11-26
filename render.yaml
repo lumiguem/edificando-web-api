@@ -6,11 +6,11 @@ services:
     plan: free
     envVars:
       - key: SPRING_DATASOURCE_URL
-        value: jdbc:mysql://dbedificando.ctaq2o8swjil.us-east-2.rds.amazonaws.com:3306/Edificando_db?useSSL=false&serverTimezone=UTC
+        value: jdbc:mysql://dbedificando.ctaq2o8swjil.us-east-2.rds.amazonaws.com:3306/edificando_db?useSSL=false&serverTimezone=UTC
       - key: SPRING_DATASOURCE_USERNAME
         value: admin
       - key: SPRING_DATASOURCE_PASSWORD
-        value: edidicando2025
+        value: edificando2025
       - key: SPRING_PROFILES_ACTIVE
         value: prod
       - key: JWT_SECRET

@@ -59,6 +59,11 @@
             <artifactId>mapstruct</artifactId>
             <version>1.6.3</version>
         </dependency>
+		<dependency>
+			<groupId>com.error</groupId>
+			<artifactId>spring-error-handler</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 
         <dependency>
             <groupId>org.mapstruct</groupId>
