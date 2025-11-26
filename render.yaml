@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: edificando-api
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    envVars:
+      - key: SPRING_DATASOURCE_URL
+        value: jdbc:mysql://dbedificando.ctaq2o8swjil.us-east-2.rds.amazonaws.com:3306/Edificando_db?useSSL=false&serverTimezone=UTC
+      - key: SPRING_DATASOURCE_USERNAME
+        value: admin
+      - key: SPRING_DATASOURCE_PASSWORD
+        value: edidicando2025
+      - key: SPRING_PROFILES_ACTIVE
+        value: prod
+      - key: JWT_SECRET
+        value: TDSZydxbpLTzBiSyAdfK6qzd8nBt9WeOFBO-Pi7NO5X1IWgLA594XmYEj99lEK_ZEyKKs2dkmIe8g1dFBYuQJg
